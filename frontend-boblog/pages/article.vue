@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <vue-lazy-component @after-leave="onLoadEnd">
+    <!-- <vue-lazy-component @after-leave="onLoadEnd">
       <ArticleComment class="response-wrap" />
       <img
         width="0"
@@ -30,19 +30,19 @@
         src="https://cdn.boblog.com/login-bg.png"
         alt="preload"
       />
-    </vue-lazy-component>
+    </vue-lazy-component> -->
   </div>
 </template>
 <script>
 import { getArticleDetail } from '@/request/api/article'
-import ArticleComment from '@/components/article/ArticleComment'
+// import ArticleComment from '@/components/article/ArticleComment'
 import { mapState } from 'vuex'
-import { component as VueLazyComponent } from '@xunlei/vue-lazy-component'
+// import { component as VueLazyComponent } from '@xunlei/vue-lazy-component'
 export default {
   name: 'ArticleDetail',
   components: {
-    ArticleComment,
-    VueLazyComponent,
+    // ArticleComment,
+    // VueLazyComponent,
   },
   async asyncData(context) {
     const { id } = context.query

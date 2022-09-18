@@ -1,6 +1,6 @@
 const dotenv = require('dotenv')
 const envConfig = dotenv.config({ path: `.env.${process.env.NODE_ENV}` }).parsed
-
+console.log('process.env.BASE_URL',process.env.BASE_URL)
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

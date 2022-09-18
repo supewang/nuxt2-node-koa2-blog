@@ -2,7 +2,7 @@
   <div>
     <div class="header">
       <div class="response-wrap header-inner">
-        <h2 class="logo">xiaowang blog</h2>
+        <h2 class="logo">wang blog</h2>
         <div class="nav">
           <div
             v-for="(item, index) in nav"
@@ -44,10 +44,10 @@
           >
           </el-input>
         </div>
-        <div class="login">
+        <!-- <div class="login">
           <span @click="isLogin =true">登录</span>
           <span @click="isLogin =true">注册</span>
-        </div>
+        </div> -->
       </div>
     </div>
       <el-dialog
